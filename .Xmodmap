@@ -1,0 +1,6 @@
+! Make caps lock a control key!
+! http://ubuntuforums.org/showthread.php?t=1743145&p=10831744#post10831744
+
+keycode 66 = Control_L
+clear lock
+add control = Control_L
