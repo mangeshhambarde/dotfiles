@@ -1,5 +1,1 @@
-if [ -f ~/.bash_login.work ]; then
-	source ~/.bash_login.work
-fi
-
 source ~/.bashrc
