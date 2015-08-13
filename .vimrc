@@ -87,3 +87,9 @@ endif
 if filereadable(expand("$HOME/.vimrc.work"))
 	source ~/.vimrc.work
 endif
+
+" cscope maps
+" http://cscope.sourceforge.net/cscope_vim_tutorial.html
+if filereadable(expand("$HOME/.cscope_maps.vim"))
+	source ~/.cscope_maps.vim
+endif
