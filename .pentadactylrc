@@ -1,0 +1,9 @@
+set hlfind
+map -b j 4j
+map -b k 4k
+set guioptions=bCrsT
+set scrolltime=0
+set scrollsteps=1
+map -b <C-l> <Pass>
+map -b <C-t> <Pass>
+map -b <C-w> <Pass>
