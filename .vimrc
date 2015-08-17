@@ -49,6 +49,9 @@ set smartindent
 " always show file path
 set showtabline=2
 
+" mouse scrolling
+set mouse=a
+
 "set statusline+=%f
 "set laststatus=2
 
