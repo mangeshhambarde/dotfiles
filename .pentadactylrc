@@ -7,3 +7,5 @@ set scrollsteps=1
 map -b <C-l> <Pass>
 map -b <C-t> <Pass>
 map -b <C-w> <Pass>
+map -b <C-c> <Pass>
+map -b <C-v> <Pass>
