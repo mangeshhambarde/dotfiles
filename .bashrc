@@ -36,11 +36,6 @@ alias ll='ls -l'
 alias lh='ls -lh'
 alias rc='source ~/.bashrc'
 
-# caps-to-ctrl
-if [ $(type -P "xmodmap") ] && [ -f ~/.Xmodmap ]; then
-	xmodmap ~/.Xmodmap
-fi
-
 # source work config
 if [ -f ~/.bashrc.work ]; then
 	source ~/.bashrc.work
