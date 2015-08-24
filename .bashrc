@@ -17,6 +17,7 @@ fi
 export TZ='Asia/Kolkata' # timezone
 export TERM=xterm # http://www.economyofeffort.com/2014/07/04/zsh/
 export PAGER='less' # pager
+export LESS='-FRX' # less sucks less
 
 # bash options
 HISTSIZE=1000000 # set history length
