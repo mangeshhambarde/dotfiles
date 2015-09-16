@@ -50,7 +50,7 @@ set smartindent
 set showtabline=2
 
 " mouse scrolling
-set mouse=a
+"set mouse=a
 
 "set statusline+=%f
 "set laststatus=2
