@@ -2,7 +2,7 @@
 set nocompatible " ?
 
 " enable syntax highlighting
-syntax enable
+syntax on
 
 " color scheme (slate or pablo)
 "colorscheme slate
@@ -59,13 +59,16 @@ set showtabline=2
 set nobackup
 set noswapfile
 set viminfo="NONE"
-set noloadplugins
+"set noloadplugins
 
 set shortmess+="I"
 
 "set cursorline " highlight current line
 "set foldenable " enable code folding
 "filetype indent on " load filetype specific indent files
+filetype plugin on
+syntax on
+filetype plugin indent on
 "set showcmd " show last command in bottom right
 
 " cscope
