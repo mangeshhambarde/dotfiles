@@ -1,14 +1,11 @@
-" pathogen
-execute pathogen#infect()
-
 " http://nvie.com/posts/how-i-boosted-my-vim/
-"set nocompatible " ?
+set nocompatible " ?
 
 " enable syntax highlighting
 syntax on
 
 " color scheme (slate or pablo)
-colorscheme slate
+"colorscheme slate
 
 " show line numbers
 set number
@@ -70,7 +67,8 @@ set shortmess+="I"
 "set foldenable " enable code folding
 "filetype indent on " load filetype specific indent files
 filetype plugin on
-"filetype plugin indent on
+syntax on
+filetype plugin indent on
 "set showcmd " show last command in bottom right
 
 " cscope
