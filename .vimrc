@@ -71,6 +71,11 @@ syntax on
 filetype plugin indent on
 "set showcmd " show last command in bottom right
 
+" tab colors
+hi TabLine term=bold cterm=bold ctermbg=8 ctermfg=0
+hi TabLineSel term=bold cterm=bold ctermbg=7 ctermfg=0
+hi TabLineFill term=bold cterm=bold ctermbg=8 ctermfg=0
+
 " cscope
 if has('cscope')
 	set cscopetag cscopeverbose
