@@ -35,13 +35,13 @@ set backspace=indent,eol,start
 nmap <silent> ,/ :nohlsearch<CR>
 
 " number of spaces to show for tab, only affects display
-set tabstop=4
+set tabstop=2
 
 " indentation
-set shiftwidth=4
+set shiftwidth=2
 
 " never expand tabs
-set noexpandtab
+set expandtab
 
 " auto indentation. dumber than cindent
 set smartindent
@@ -75,32 +75,3 @@ filetype plugin indent on
 hi TabLine term=bold cterm=bold ctermbg=8 ctermfg=0
 hi TabLineSel term=bold cterm=bold ctermbg=7 ctermfg=0
 hi TabLineFill term=bold cterm=bold ctermbg=8 ctermfg=0
-
-" cscope
-if has('cscope')
-	set cscopetag cscopeverbose
-
-	if has('quickfix')
-		set cscopequickfix=s-,c-,d-,i-,t-,e-
-	endif
-
-	cnoreabbrev csa cs add
-	cnoreabbrev csf cs find
-	cnoreabbrev csk cs kill
-	cnoreabbrev csr cs reset
-	cnoreabbrev css cs show
-	cnoreabbrev csh cs help
-
-	command -nargs=0 Cscope cs add $VIMSRC/src/cscope.out $VIMSRC/src
-endif
-
-" work specific
-if filereadable(expand("$HOME/.vimrc.work"))
-	source ~/.vimrc.work
-endif
-
-" cscope maps
-" http://cscope.sourceforge.net/cscope_vim_tutorial.html
-if filereadable(expand("$HOME/.cscope_maps.vim"))
-	source ~/.cscope_maps.vim
-endif

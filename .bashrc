@@ -33,6 +33,11 @@ IGNOREEOF=1 # prevent one accidental eof
 shopt -s histappend # append to the history file, don't overwrite it 
 shopt -s checkwinsize # check the window size after each command
 
+# nicer autocomplete
+# http://superuser.com/questions/288714/bash-autocomplete-like-zsh
+bind 'TAB:menu-complete'
+bind 'set show-all-if-ambiguous on'
+
 # sets
 set -o vi # vi mode
 
