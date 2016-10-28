@@ -44,7 +44,8 @@ set shiftwidth=2
 set expandtab
 
 " auto indentation. dumber than cindent
-set smartindent
+" unset for python.
+"set smartindent
 
 " always show file path
 set showtabline=2
