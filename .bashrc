@@ -8,11 +8,11 @@ green='\[\e[1;32m\]'
 yellow='\[\e[1;33m\]'
 end='\[\e[m\]'
 if [ $EUID -ne 0 ]; then
-	PS1=$(printf "%s\\\\u@\h:%s%s\w$%s " "$red" "$end" "$blue" "$end")
+	PS1=$(printf "%s\\\\u@\h:%s%s\w[\$?]$%s " "$green" "$end" "$blue" "$end")
 	#PS1=$(printf "%s$%s " "$yellow" "$end")
 	#PS1="$ "
 else
-	PS1=$(printf "%s\\\\u@\h:%s%s\w#%s " "$red" "$end" "$blue" "$end")
+	PS1=$(printf "%s\\\\u@\h:%s%s\w[\$?]#%s " "$red" "$end" "$blue" "$end")
 	#PS1=$(printf "%s$%s " "$red" "$end")
 	#PS1="# "
 fi
