@@ -18,7 +18,7 @@ else
 fi
 
 # exports
-export TZ='Asia/Kolkata' # timezone
+#export TZ='Asia/Kolkata' # timezone
 export TERM=xterm # http://www.economyofeffort.com/2014/07/04/zsh/
 export PAGER='less' # pager
 export LESS='-FRX' # less sucks less
