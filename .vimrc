@@ -23,7 +23,7 @@ set incsearch
 set hlsearch
 
 " dark background colors
-set background=dark
+"set background=dark
 
 " don't wrap lines
 set nowrap
