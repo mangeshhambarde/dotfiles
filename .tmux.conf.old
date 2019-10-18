@@ -2,13 +2,16 @@
 #set-option -g default-terminal "screen-256color"
 
 # likeable colors
-set-option -g status-style bg=default,fg=white
+set-option -g status-bg default
+set-option -g status-fg white
 
 # highlight current window
-set-window-option -g window-status-current-style bg=red,fg=black
+set-window-option -g window-status-current-bg red
+set-window-option -g window-status-current-fg black
 
 # copy mode colors
-set-window-option -g mode-style bg=green,fg=black
+set-window-option -g mode-bg green
+set-window-option -g mode-fg black
 
 # new modifier key
 #set-option -g prefix2 '`'
