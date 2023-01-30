@@ -1,7 +1,0 @@
-" only tabs (evals left to right)
-set gui=none,tabs,navigation
-set complete=lbt
-
-" faster scrolling
-noremap j 4j
-noremap k 4k
